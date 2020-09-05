@@ -9,10 +9,12 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "node server/index.js"
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "http-proxy-middleware": "^1.0.5"
+    "http-proxy-middleware": "^1.0.5",
+    "newrelic": "^6.13.0",
+    "nodemon": "^2.0.4"
   }
 }
